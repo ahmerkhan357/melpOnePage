@@ -1,0 +1,15 @@
+/* dashboard screen*/
+.welcome-name{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.46;
+    letter-spacing: 0.6px;
+    color: #222020;
+}
+.welcome-subtitle{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 2;
+    letter-spacing: 0.6px;
+    color: #554d4d;
+}

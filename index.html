@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<link rel="stylesheet" href="css/nav.css">
+<link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+<!-- Bootstrap NavBar -->
+<nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
+    <div class="navbar-left"></div>
+    <div class="navbar-right">
+        <div class="navbar-title">
+            <span>dashboard </span><span></span>
+        </div>
+        <div class="navbar-icon">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <img src="images/searchicons.svg" alt="">
+                </li>
+                <li class="nav-item">
+                   <img src="images/chatg.svg" alt="">
+                </li>
+                <li class="nav-item">
+                    <img src="images/notification.svg" alt="">
+                </li>
+                <li class="nav-item">
+                    <img src="images/pinned.svg" alt="">
+                 </li>
+                 <li class="nav-item">
+                     <img src="images/active-conference.svg" alt="">
+                 </li>
+                <!-- Smaller devices menu END -->
+            </ul>
+        </div>
+       
+    </div>
+</nav>
+<!-- NavBar END -->
+
+
+<!-- Bootstrap row -->
+<div class="row" id="body-row">
+    <!-- Sidebar -->
+    <div id="sidebar-container" class="sidebar-expanded d-none d-md-block col-2">
+        <!-- d-* hiddens the Sidebar in smaller devices. Its itens can be kept on the Navbar 'Menu' -->
+        <!-- Bootstrap List Group -->
+        <ul class="list-group sticky-top sticky-offset">
+             <!-- Logo -->
+             <li class="list-group-item logo-separator d-flex justify-content-center padding-unset">
+                <img class="red-border" src="https://cdnmedia-fm.melpapp.com/7a14c9d8-c99a-42d6-8a55-cc02395ee339/9029@user.jpeg?sessionid=8170cdaaa6304436a27eb5f419faf5d0&isthumb=1" width="110" height="100">
+            </li>
+            <!-- Separator with title -->
+            <li class="list-group-item sidebar-separator-title text-muted  align-items-center menu-collapsed recent-menu">
+                <img src="images/recent.svg" alt="">
+                <span class="menu-style">recent</span>
+                <ul>
+                    <li>calls <span>0</span></li>
+                    <li>messages <span>0</span></li>
+                    <li>topics <span>0</span></li>
+                    <li>meetings <span>0</span></li>
+                </ul>
+            </li>
+            <!-- /END Separator -->
+            
+            <!-- Separator with title -->
+            <li class="list-group-item sidebar-separator-title text-muted  align-items-center menu-collapsed contacts-menu">
+                <img src="images/contact.svg" alt="">
+                <span class="menu-style">contacts</span>
+                <ul>
+                    <li>all contacts</li>
+                    <li>location</li>
+                    <li>department</li>
+                    <li>title</li>
+                </ul>
+            </li>
+            <!-- /END Separator -->
+
+             <!-- Separator with title -->
+             <li class="list-group-item sidebar-separator-title text-muted  align-items-center menu-collapsed teams-menu">
+                <img src="images/team.svg" alt=""><br>
+                <span class="menu-style">teams</span>
+            </li>
+            <!-- /END Separator -->
+
+             <!-- Separator with title -->
+             <li class="list-group-item sidebar-separator-title text-muted  align-items-center menu-collapsed groups-menu">
+                <img src="images/group.svg" alt="" >
+                <span class="menu-style">groups</span>
+            </li>
+            <!-- /END Separator -->
+
+             <!-- Separator with title -->
+             <li class="list-group-item sidebar-separator-title text-muted  align-items-center menu-collapsed calendar-menu">
+                <img src="images/calendar.svg" alt="">
+                <span class="menu-style">calendar</span>
+            </li>
+             
+            <!-- /END Separator -->
+
+            <!-- Separator with title -->
+            <li class="list-group-item sidebar-separator-title text-muted  align-items-center menu-collapsed network-menu">
+                <img src="images/network.svg" alt="">
+                <span class="menu-style">network</span>
+                <ul>
+                    <li>invite contact</li>
+                    <li>my network</li>
+                    <li>my invitations</li>
+                </ul>
+            </li>
+            <!-- /END Separator -->
+
+             <!-- Separator with title -->
+             <li class="list-group-item sidebar-separator-title text-muted  align-items-center menu-collapsed files-menu">
+                <img src="images/file.svg" alt=""><br>
+                <span class="menu-style">files</span>
+            </li>
+            <!-- /END Separator -->
+          
+           
+        </ul>
+        <!-- List Group END-->
+    </div>
+    <!-- sidebar-container END -->
+
+    <!-- MAIN -->
+    <div class="col py-3">
+        <section id="dashboard">
+            <h1 class="welcome-name">
+                Welcome, Ahmar Ali Khan
+            </h1>
+            <h4 class="welcome-subtitle">Here are some things to get going…</h4>
+            <div class="col-xl-3 col-lg-6 col-md-12 col-sm-12">ABC</div>
+            <div class="col-xl-3 col-lg-6 col-md-12 col-sm-12">ABC</div>
+            <div class="col-xl-3 col-lg-6 col-md-12 col-sm-12">ABC</div>
+            <div class="col-xl-3 col-lg-6 col-md-12 col-sm-12">ABC</div>
+        </section>
+    </div>
+    <!-- Main Col END -->
+
+</div>
+<!-- body-row END -->
+
+</body>
+</html>
